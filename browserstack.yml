@@ -1,0 +1,24 @@
+userName: felipesanchez_ETmrZC
+accessKey: QecQmB4FFewJzt7TXpy5
+app: bs://3ad9256021513ce52e8a5623fcbdbcff7e8bf50f
+framework: serenity
+source: serenity:appium-sample-sdk:v1.1
+
+platforms:
+  - deviceName: Samsung Galaxy S22 Ultra
+    platformVersion: 12.0
+    platformName: android
+parallelsPerPlatform: 1
+browserstackLocal: true # <boolean> (Default false)
+buildName: Test
+buildIdentifier: ${BUILD_NUMBER}
+appiumVersion: "2.12.1"
+projectName: PruebasBrowser
+debug: true
+networkLogs: true
+appProfiling: true
+interactiveDebugging: true
+
+
+
+
